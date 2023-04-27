@@ -1,7 +1,7 @@
 # Eazee-As-Py
 ## Execute Python Reverse Shells on Windows Hosts without Python Installed 😎
 
-I spent the whole morning working out how I can execute Python on a Windows Host that doesnt have Python Installed.
+I spent this morning working out how I can execute Python on a Windows Host that doesnt have Python Installed.
 
 There is no documentation I have found online on how to do this so I am taking all the credit 💪🏼
 
