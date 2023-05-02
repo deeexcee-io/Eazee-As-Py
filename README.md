@@ -3,11 +3,19 @@
 
 I spent this morning working out how I can execute Python on a Windows Host that doesnt have Python Installed.
 
-There is no documentation I have found online on how to do this so I am taking all the credit 💪🏼
+There is no documentation I have found online on this particular technique so I am taking all the credit 💪🏼
 
-Im assuming the possibilites are endless with this but I only wanted to see if I could execute Reverse Shells.
+Obviously using SMB shares for transferring files and running .exe is nothing new but this way we can load python into memory on a system that doesnt have Python installed. Also nothing touches disk. 
 
-Not exactly ground breaking research just a lot of trial and error. 
+Essentially this is giving us more flexibility to carry out Post-Exploitation task if needed. For example see this on exposing an Internal HTTP Server using this technique with no SSH port forwarding - https://github.com/deeexcee-io/LOI-Bins#port-forward-example
+
+Im assuming the possibilites are endless with this.
+
+Not exactly ground breaking research just some abstract thinking whilst lying in bed at 1am. 🛌🏼
+
+## EDIT
+
+This random example has spawned more testing. see - https://github.com/deeexcee-io/LOI-Bins
 
 ## How to do it
 
